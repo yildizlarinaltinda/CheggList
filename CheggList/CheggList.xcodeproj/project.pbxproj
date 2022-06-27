@@ -11,6 +11,9 @@
 		931F2435286952E000951DAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2434286952E000951DAC /* ContentView.swift */; };
 		931F2437286952E100951DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931F2436286952E100951DAC /* Assets.xcassets */; };
 		931F243A286952E100951DAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931F2439286952E100951DAC /* Preview Assets.xcassets */; };
+		931F2444286A174A00951DAC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2443286A174A00951DAC /* LoginView.swift */; };
+		931F2448286A18B400951DAC /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2447286A18B400951DAC /* SignupView.swift */; };
+		931F244A286A1A2700951DAC /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2449286A1A2700951DAC /* BackgroundGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		931F2434286952E000951DAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		931F2436286952E100951DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931F2439286952E100951DAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		931F2443286A174A00951DAC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		931F2447286A18B400951DAC /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		931F2449286A1A2700951DAC /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,9 @@
 		931F2431286952E000951DAC /* CheggList */ = {
 			isa = PBXGroup;
 			children = (
+				931F2442286A08F700951DAC /* Model */,
+				931F2440286A08E400951DAC /* View */,
+				931F2441286A08F000951DAC /* ViewModel */,
 				931F2432286952E000951DAC /* CheggListApp.swift */,
 				931F2434286952E000951DAC /* ContentView.swift */,
 				931F2436286952E100951DAC /* Assets.xcassets */,
@@ -65,6 +74,46 @@
 				931F2439286952E100951DAC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		931F2440286A08E400951DAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				931F2445286A17CE00951DAC /* Utils */,
+				931F2446286A181400951DAC /* Authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		931F2441286A08F000951DAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		931F2442286A08F700951DAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		931F2445286A17CE00951DAC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				931F2449286A1A2700951DAC /* BackgroundGradientView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		931F2446286A181400951DAC /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				931F2443286A174A00951DAC /* LoginView.swift */,
+				931F2447286A18B400951DAC /* SignupView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +186,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931F2448286A18B400951DAC /* SignupView.swift in Sources */,
+				931F2444286A174A00951DAC /* LoginView.swift in Sources */,
 				931F2435286952E000951DAC /* ContentView.swift in Sources */,
+				931F244A286A1A2700951DAC /* BackgroundGradientView.swift in Sources */,
 				931F2433286952E000951DAC /* CheggListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +328,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +359,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
