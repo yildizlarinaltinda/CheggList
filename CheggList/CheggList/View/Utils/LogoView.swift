@@ -18,7 +18,7 @@ struct LogoView: View {
                 .frame(width: 150, height: 150)
                 
             
-            Text("CheggList")
+            Text("CheckList")
                 .foregroundColor(.white)
                 .font(.system(size: 25))
                 .fontWeight(.semibold)

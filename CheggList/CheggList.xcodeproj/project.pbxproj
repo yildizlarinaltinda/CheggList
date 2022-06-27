@@ -20,6 +20,7 @@
 		931F2453286A355300951DAC /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2452286A355300951DAC /* CustomSecureField.swift */; };
 		931F2455286A36DD00951DAC /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2454286A36DD00951DAC /* PasswordSecureField.swift */; };
 		931F2459286A3D2600951DAC /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2458286A3D2600951DAC /* AuthenticateButtonView.swift */; };
+		931F245B286A4EAA00951DAC /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F245A286A4EAA00951DAC /* UserTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		931F2452286A355300951DAC /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		931F2454286A36DD00951DAC /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		931F2458286A3D2600951DAC /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
+		931F245A286A4EAA00951DAC /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				931F2450286A2EC700951DAC /* EmailTextField.swift */,
 				931F2452286A355300951DAC /* CustomSecureField.swift */,
 				931F2454286A36DD00951DAC /* PasswordSecureField.swift */,
+				931F245A286A4EAA00951DAC /* UserTextField.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				931F2451286A2EC700951DAC /* EmailTextField.swift in Sources */,
 				931F244E286A240600951DAC /* CustomTextField.swift in Sources */,
+				931F245B286A4EAA00951DAC /* UserTextField.swift in Sources */,
 				931F2448286A18B400951DAC /* SignupView.swift in Sources */,
 				931F244C286A1F6300951DAC /* LogoView.swift in Sources */,
 				931F2455286A36DD00951DAC /* PasswordSecureField.swift in Sources */,

@@ -83,7 +83,6 @@ struct LoginView: View {
                 } // End of VStack
                 .padding(.top, -44)
              
-                
             }
         } // End of ZStack
         
