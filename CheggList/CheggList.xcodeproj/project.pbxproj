@@ -17,6 +17,8 @@
 		931F244C286A1F6300951DAC /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F244B286A1F6300951DAC /* LogoView.swift */; };
 		931F244E286A240600951DAC /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F244D286A240600951DAC /* CustomTextField.swift */; };
 		931F2451286A2EC700951DAC /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2450286A2EC700951DAC /* EmailTextField.swift */; };
+		931F2453286A355300951DAC /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2452286A355300951DAC /* CustomSecureField.swift */; };
+		931F2455286A36DD00951DAC /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2454286A36DD00951DAC /* PasswordSecureField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		931F244B286A1F6300951DAC /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		931F244D286A240600951DAC /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		931F2450286A2EC700951DAC /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		931F2452286A355300951DAC /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		931F2454286A36DD00951DAC /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,8 @@
 			children = (
 				931F244D286A240600951DAC /* CustomTextField.swift */,
 				931F2450286A2EC700951DAC /* EmailTextField.swift */,
+				931F2452286A355300951DAC /* CustomSecureField.swift */,
+				931F2454286A36DD00951DAC /* PasswordSecureField.swift */,
 			);
 			path = TextField;
 			sourceTree = "<group>";
@@ -207,9 +213,11 @@
 				931F244E286A240600951DAC /* CustomTextField.swift in Sources */,
 				931F2448286A18B400951DAC /* SignupView.swift in Sources */,
 				931F244C286A1F6300951DAC /* LogoView.swift in Sources */,
+				931F2455286A36DD00951DAC /* PasswordSecureField.swift in Sources */,
 				931F2444286A174A00951DAC /* LoginView.swift in Sources */,
 				931F2435286952E000951DAC /* ContentView.swift in Sources */,
 				931F244A286A1A2700951DAC /* BackgroundGradientView.swift in Sources */,
+				931F2453286A355300951DAC /* CustomSecureField.swift in Sources */,
 				931F2433286952E000951DAC /* CheggListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
