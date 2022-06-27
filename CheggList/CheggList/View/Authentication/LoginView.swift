@@ -31,6 +31,36 @@ struct LoginView: View {
                 } // End of VStack
                 .padding(.horizontal, 32)
                 
+                
+                HStack {
+                    Spacer()
+                    
+                    Button {
+                        // Forgot Password Action
+                        
+                    } label: {
+                        Text("Forget Password")
+                            .foregroundColor(.white)
+                            .font(.system(size: 13, weight: .semibold))
+                            .padding(.top)
+                            .padding(.trailing, 28)
+                    }
+                } // End of HStack
+                
+                
+                
+                Button {
+                    // Sign In Action
+                } label: {
+                    
+                    AuthenticateButtonView(text: "Sign In")
+                        .padding()
+                    
+                }
+                
+                Spacer()
+
+                
             } // End of VStack
          
             
