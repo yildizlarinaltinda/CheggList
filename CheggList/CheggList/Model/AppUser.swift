@@ -16,10 +16,10 @@ struct AppUser: Identifiable, Decodable {
     let lastName: String
     let email: String
     
-  //  var isCurrentUser: Bool {
-  //      return AuthViewModel.shared.userSession?.uid == id
+    var isCurrentUser: Bool {
+        return AuthViewModel.shared.userSession?.uid == id
         
-  //  }
+    }
     
     
 }

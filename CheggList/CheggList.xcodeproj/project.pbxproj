@@ -36,6 +36,8 @@
 		931F2477286AAE0C00951DAC /* SelectedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2476286AAE0C00951DAC /* SelectedButton.swift */; };
 		931F247A286AB0F100951DAC /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 931F2479286AB0F100951DAC /* FirebaseFirestoreSwift */; };
 		931F247E286AB52C00951DAC /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F247D286AB52C00951DAC /* MockData.swift */; };
+		931F2480286B32E500951DAC /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F247F286B32E500951DAC /* AuthViewModel.swift */; };
+		931F2482286B3E0B00951DAC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2481286B3E0B00951DAC /* DashboardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		931F2474286AACEF00951DAC /* TODO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODO.swift; sourceTree = "<group>"; };
 		931F2476286AAE0C00951DAC /* SelectedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedButton.swift; sourceTree = "<group>"; };
 		931F247D286AB52C00951DAC /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		931F247F286B32E500951DAC /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		931F2481286B3E0B00951DAC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,7 @@
 			children = (
 				931F2445286A17CE00951DAC /* Utils */,
 				931F2446286A181400951DAC /* Authentication */,
+				931F2481286B3E0B00951DAC /* DashboardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 		931F2441286A08F000951DAC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				931F247F286B32E500951DAC /* AuthViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -290,6 +296,8 @@
 				931F2477286AAE0C00951DAC /* SelectedButton.swift in Sources */,
 				931F2448286A18B400951DAC /* SignupView.swift in Sources */,
 				931F2475286AACEF00951DAC /* TODO.swift in Sources */,
+				931F2482286B3E0B00951DAC /* DashboardView.swift in Sources */,
+				931F2480286B32E500951DAC /* AuthViewModel.swift in Sources */,
 				931F244C286A1F6300951DAC /* LogoView.swift in Sources */,
 				931F2455286A36DD00951DAC /* PasswordSecureField.swift in Sources */,
 				931F2444286A174A00951DAC /* LoginView.swift in Sources */,

@@ -13,6 +13,9 @@ struct LoginView: View {
     @State var password = ""
     
     
+    @EnvironmentObject var viewModel: AuthViewModel
+    
+    
     var body: some View {
         
         
@@ -55,6 +58,9 @@ struct LoginView: View {
                     
                     Button {
                         // Sign In Action
+                        
+                        viewModel.login(withEmail: email, password: password)
+                        
                     } label: {
                         
                         AuthenticateButtonView(text: "Sign In")

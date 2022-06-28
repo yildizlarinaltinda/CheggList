@@ -19,6 +19,9 @@ struct SignupView: View {
     @Environment(\.presentationMode) var mode
     
     
+    @EnvironmentObject var viewModel: AuthViewModel
+    
+    
     
     var body: some View {
         
@@ -47,6 +50,10 @@ struct SignupView: View {
                 
                 Button {
                     // Sign Up Action
+                    
+                    viewModel.register(withEmail: email, password: password, firstName: firstName, lastName: lastName)
+                    
+                    
                 } label: {
                     AuthenticateButtonView(text: "Sign Up")
                         .padding()
