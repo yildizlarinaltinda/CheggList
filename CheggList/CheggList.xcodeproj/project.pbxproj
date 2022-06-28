@@ -38,6 +38,8 @@
 		931F247E286AB52C00951DAC /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F247D286AB52C00951DAC /* MockData.swift */; };
 		931F2480286B32E500951DAC /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F247F286B32E500951DAC /* AuthViewModel.swift */; };
 		931F2482286B3E0B00951DAC /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2481286B3E0B00951DAC /* DashboardView.swift */; };
+		931F2484286B53EA00951DAC /* TODOViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2483286B53EA00951DAC /* TODOViewModel.swift */; };
+		931F2486286B680D00951DAC /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2485286B680D00951DAC /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		931F247D286AB52C00951DAC /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		931F247F286B32E500951DAC /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		931F2481286B3E0B00951DAC /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		931F2483286B53EA00951DAC /* TODOViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOViewModel.swift; sourceTree = "<group>"; };
+		931F2485286B680D00951DAC /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				931F247F286B32E500951DAC /* AuthViewModel.swift */,
+				931F2483286B53EA00951DAC /* TODOViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				931F2449286A1A2700951DAC /* BackgroundGradientView.swift */,
 				931F244B286A1F6300951DAC /* LogoView.swift */,
 				931F2458286A3D2600951DAC /* AuthenticateButtonView.swift */,
+				931F2485286B680D00951DAC /* SearchBarView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -298,12 +304,14 @@
 				931F2475286AACEF00951DAC /* TODO.swift in Sources */,
 				931F2482286B3E0B00951DAC /* DashboardView.swift in Sources */,
 				931F2480286B32E500951DAC /* AuthViewModel.swift in Sources */,
+				931F2486286B680D00951DAC /* SearchBarView.swift in Sources */,
 				931F244C286A1F6300951DAC /* LogoView.swift in Sources */,
 				931F2455286A36DD00951DAC /* PasswordSecureField.swift in Sources */,
 				931F2444286A174A00951DAC /* LoginView.swift in Sources */,
 				931F2471286AA9E100951DAC /* Constants.swift in Sources */,
 				931F2459286A3D2600951DAC /* AuthenticateButtonView.swift in Sources */,
 				931F2435286952E000951DAC /* ContentView.swift in Sources */,
+				931F2484286B53EA00951DAC /* TODOViewModel.swift in Sources */,
 				931F244A286A1A2700951DAC /* BackgroundGradientView.swift in Sources */,
 				931F2453286A355300951DAC /* CustomSecureField.swift in Sources */,
 				931F2433286952E000951DAC /* CheggListApp.swift in Sources */,
