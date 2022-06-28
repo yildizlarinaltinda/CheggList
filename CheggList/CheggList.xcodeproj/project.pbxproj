@@ -42,6 +42,11 @@
 		931F2486286B680D00951DAC /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2485286B680D00951DAC /* SearchBarView.swift */; };
 		931F2488286B9DA500951DAC /* TODOButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2487286B9DA500951DAC /* TODOButtonStack.swift */; };
 		931F248A286BA19E00951DAC /* AddTODOLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2489286BA19E00951DAC /* AddTODOLogo.swift */; };
+		931F248C286BA32000951DAC /* TODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F248B286BA32000951DAC /* TODOView.swift */; };
+		931F248E286BA7A100951DAC /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F248D286BA7A100951DAC /* BlankView.swift */; };
+		931F2490286BA84800951DAC /* CreateTODOView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F248F286BA84800951DAC /* CreateTODOView.swift */; };
+		931F2492286BAD1000951DAC /* TODOTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2491286BAD1000951DAC /* TODOTextField.swift */; };
+		931F2494286BAF0400951DAC /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931F2493286BAF0400951DAC /* CustomTextEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +77,11 @@
 		931F2485286B680D00951DAC /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		931F2487286B9DA500951DAC /* TODOButtonStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOButtonStack.swift; sourceTree = "<group>"; };
 		931F2489286BA19E00951DAC /* AddTODOLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTODOLogo.swift; sourceTree = "<group>"; };
+		931F248B286BA32000951DAC /* TODOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOView.swift; sourceTree = "<group>"; };
+		931F248D286BA7A100951DAC /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		931F248F286BA84800951DAC /* CreateTODOView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTODOView.swift; sourceTree = "<group>"; };
+		931F2491286BAD1000951DAC /* TODOTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOTextField.swift; sourceTree = "<group>"; };
+		931F2493286BAF0400951DAC /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +151,8 @@
 				931F2445286A17CE00951DAC /* Utils */,
 				931F2446286A181400951DAC /* Authentication */,
 				931F2481286B3E0B00951DAC /* DashboardView.swift */,
+				931F248B286BA32000951DAC /* TODOView.swift */,
+				931F248F286BA84800951DAC /* CreateTODOView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +187,8 @@
 				931F2485286B680D00951DAC /* SearchBarView.swift */,
 				931F2487286B9DA500951DAC /* TODOButtonStack.swift */,
 				931F2489286BA19E00951DAC /* AddTODOLogo.swift */,
+				931F248D286BA7A100951DAC /* BlankView.swift */,
+				931F2493286BAF0400951DAC /* CustomTextEditor.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -191,6 +205,7 @@
 		931F244F286A2E9B00951DAC /* TextField */ = {
 			isa = PBXGroup;
 			children = (
+				931F2491286BAD1000951DAC /* TODOTextField.swift */,
 				931F244D286A240600951DAC /* CustomTextField.swift */,
 				931F2450286A2EC700951DAC /* EmailTextField.swift */,
 				931F2452286A355300951DAC /* CustomSecureField.swift */,
@@ -302,6 +317,8 @@
 			files = (
 				931F2473286AAB3000951DAC /* AppUser.swift in Sources */,
 				931F2451286A2EC700951DAC /* EmailTextField.swift in Sources */,
+				931F2490286BA84800951DAC /* CreateTODOView.swift in Sources */,
+				931F248C286BA32000951DAC /* TODOView.swift in Sources */,
 				931F244E286A240600951DAC /* CustomTextField.swift in Sources */,
 				931F247E286AB52C00951DAC /* MockData.swift in Sources */,
 				931F245B286A4EAA00951DAC /* UserTextField.swift in Sources */,
@@ -309,10 +326,12 @@
 				931F2448286A18B400951DAC /* SignupView.swift in Sources */,
 				931F2475286AACEF00951DAC /* TODO.swift in Sources */,
 				931F2482286B3E0B00951DAC /* DashboardView.swift in Sources */,
+				931F2492286BAD1000951DAC /* TODOTextField.swift in Sources */,
 				931F2480286B32E500951DAC /* AuthViewModel.swift in Sources */,
 				931F2488286B9DA500951DAC /* TODOButtonStack.swift in Sources */,
 				931F2486286B680D00951DAC /* SearchBarView.swift in Sources */,
 				931F244C286A1F6300951DAC /* LogoView.swift in Sources */,
+				931F2494286BAF0400951DAC /* CustomTextEditor.swift in Sources */,
 				931F2455286A36DD00951DAC /* PasswordSecureField.swift in Sources */,
 				931F2444286A174A00951DAC /* LoginView.swift in Sources */,
 				931F2471286AA9E100951DAC /* Constants.swift in Sources */,
@@ -320,6 +339,7 @@
 				931F2435286952E000951DAC /* ContentView.swift in Sources */,
 				931F2484286B53EA00951DAC /* TODOViewModel.swift in Sources */,
 				931F244A286A1A2700951DAC /* BackgroundGradientView.swift in Sources */,
+				931F248E286BA7A100951DAC /* BlankView.swift in Sources */,
 				931F2453286A355300951DAC /* CustomSecureField.swift in Sources */,
 				931F2433286952E000951DAC /* CheggListApp.swift in Sources */,
 				931F248A286BA19E00951DAC /* AddTODOLogo.swift in Sources */,
