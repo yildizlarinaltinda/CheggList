@@ -13,7 +13,7 @@ import FirebaseFirestoreSwift
 struct TODO: Identifiable, Decodable {
     
     @DocumentID var id: String? = UUID().uuidString
-    let ownerID: String
+    let ownerUid: String
     var title: String
     var description: String
     var TODOType: String
